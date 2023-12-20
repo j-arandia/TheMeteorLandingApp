@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/baseline_search_24"
+        android:onClick="buttonClickSearch"
+        android:title="@string/year"  />
+    <item
+        android:id="@+id/nav_favourites"
+        android:icon="@drawable/baseline_info_24"
+        android:onClick="buttonClickFavourites"
+        android:title="@string/favourites" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/baseline_info_24"
+        android:onClick="buttonClickAbout"
+        android:title="@string/info" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:onClick="buttonClickLogout"
+        android:title="@string/logout" />
+</menu>

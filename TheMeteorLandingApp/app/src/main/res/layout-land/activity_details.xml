@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailsActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_orange"
+            android:colorBackground="@color/light_orange"
+            android:theme="@style/Base.Theme.TheMeteorLandingApp"
+            android:minHeight="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="5dp"
+            android:text="Details Page"
+            android:textColor="#ffffff"
+            android:textSize="96px"
+            app:layout_constraintBottom_toTopOf="@id/textViewGoogle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <TextView
+            android:id="@+id/textViewGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_marginBottom="5dp"
+            android:text="test"
+            android:textColor="#ffffff"
+            android:textSize="60px"
+            app:layout_constraintBottom_toTopOf="@+id/textViewLat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textViewLat"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="test"
+            android:textColor="#ffffff"
+            android:textSize="60px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewLong"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <TextView
+            android:id="@+id/textViewLong"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="test"
+            android:textColor="#ffffff"
+            android:textSize="60px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewLat"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+
+        <Button
+            android:id="@+id/mapBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#F78C4B"
+            android:text="@string/map"
+            android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/buttonFavourites"
+            app:layout_constraintEnd_toStartOf="@id/imageView3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewLat" />
+
+        <Button
+            android:id="@+id/buttonFavourites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F78C4B"
+            android:text="@string/addToFaves"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/imageView3"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mapBtn"
+            app:layout_constraintVertical_bias="0.464"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="352dp"
+            android:layout_height="157dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.558"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonFavourites"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/meteor4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

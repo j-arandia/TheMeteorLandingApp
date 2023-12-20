@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233705662295",
+    "project_id": "locatemeteorlandings",
+    "storage_bucket": "locatemeteorlandings.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233705662295:android:8110cd93b2ec468a470012",
+        "android_client_info": {
+          "package_name": "com.jassikaa.themeteorlandingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzeltQAwy4KLEl-9DuIWSNg6y2yiU3BSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

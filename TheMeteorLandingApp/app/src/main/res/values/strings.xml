@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Meteorite Landings</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_user">Welcome new user</string>
+    <string name="problem">Problem creating account</string>
+    <string name="logout">Logout</string>
+    <string name="logged_out">You are now logged out</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="here">Register</string>
+    <string name="add">Enter Year</string>
+    <string name="login">Log in</string>
+    <string name="read">Read from Cloud</string>
+    <string name="new_account">New Account</string>
+    <string name="year">Search</string>
+    <string name="info">About</string>
+    <string name="about_created_by">Created By</string>
+    <string name="about_names">Jassika Arandia and Rachel Gerencser</string>
+    <string name="about_features">Features</string>
+    <string name="about_features_list">
+        Register and Login with Firebase\n\n
+        Search The Meteoritical Society database by year using an API call\n\n
+        Returns all the meteorite landings in that year on a new activity\n\n
+        Select a meteor landing from the list and the Location of the meteor landing is displayed\n\n
+        The user’s favourite meteorites can be stored in a Firestore database\n\n
+    </string>
+    <string name="about_features_list_land">
+        Register and Login with Firebase\n
+        Search The Meteoritical Society database by year using an API call\n
+        Returns all the meteorite landings in that year on a new activity\n
+        Select a meteor landing from the list and the Location of the meteor landing is displayed\n
+        The user’s favourite meteorites can be stored in a Firestore database\n
+    </string>
+    <string name="meteorites"> meteorites detected</string>
+    <string name="mName">Meteor Name</string>
+    <string name="mMass">Meteor Mass</string>
+    <string name="mLoc">Location</string>
+    <string name="search">Search</string>
+    <string name="explain">Search through all known meteorite landings as collected by The Meteoritical Society between 1840 and 2013</string>
+    <string name="loc">location</string>
+    <string name="no_data">Please type in year between 1840 to 2013 only</string>
+    <string name="massBefore">(</string>
+    <string name="massAfter">grams )</string>
+    <string name="massAfter2">)</string>
+    <string name="addToFaves">+ to favourites</string>
+    <string name="favourites">Favourites</string>
+    <string name="map">Location Map View</string>
+</resources>
