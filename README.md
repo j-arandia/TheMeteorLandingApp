@@ -1,5 +1,5 @@
 # TheMeteorLandingApp
-Android Mobile Development: Kotlin Programming 
+Android Mobile Development: Kotlin/Java Programming 
 
 How does the application work:
 The application starts on the Login Activity where the user can enter their login credentials if they are a registered user.  If not, the user can enter their email and password and register. Once they have been authenticated as a registered user, they can then log in. 
